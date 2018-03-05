@@ -271,6 +271,9 @@
 	.about {
     	height: 650px;
 	}
+	.header img {
+    	padding-top: 135px;
+	}
 }
 
 @media screen and (max-width: 365px){
