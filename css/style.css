@@ -512,35 +512,52 @@ b{
 .rig1 p{
 	margin-right: 176px;
 }
-.slide ul{
-	text-align: center;
-	padding: 0;
-}
-.slide ul li{
-	display: inline-block;
-	width: 20px;
-}
 .slick-slide{
 	outline: none;
 }
-button{
+
+.slick-dots{
+	list-style: none;
+	text-align: center;
+}
+.slick-dots li{
+	display: inline-block;
+	width: 20px;
+}
+.slick-dots li.slick-active button{
+	background: #19bd9a;
+}
+.slick-dots button{
 	font-size: 0;
-	padding: 5px;
-	border-radius: 20px;
-	border: 1px solid #19bd9a;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #d5d1d0;
+	background: transparent;
+	border-radius: 50%;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	display: inline-block;
+}
+
+
+.slide .slick-prev.slick-arrow{
+	border: none;
+	display: none;
+	font-size: 0;
+	width: 0;
+	height: 0;
+	outline: none;
 	background: transparent;
 }
-button:focus{
-	background: #19bd9a;
+.slide .slick-next.slick-arrow{
+	border: none;
+	display: none;
+	font-size: 0;
+	width: 0;
+	height: 0;
 	outline: none;
-}
-button.slick-prev.slick-arrow{
-	border: none;
-	display: none;
-}
-button.slick-next.slick-arrow{
-	border: none;
-	display: none;
+	background: transparent;
 }
 .t-item img{
 	max-width: 100%;
