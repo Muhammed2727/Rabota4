@@ -4,11 +4,12 @@ body{
 	font-family: sans-serif;
 }
 .container{
-	width: 85%;
+    max-width: 1160px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 .head{
-	background: url(../img/header.jpg) no-repeat;
+	background: url(../img/header.jpg)50% 0% no-repeat;
 	height: 665px;
 }
 
@@ -309,7 +310,7 @@ b{
 }
 
 .impressed{
-	background: url(../img/imp.jpg) no-repeat;
+	background: url(../img/imp.jpg)50% 0% no-repeat;
 	height: 390px;
 	position: relative;
 }				
@@ -563,6 +564,7 @@ b{
 	max-width: 100%;
 	display: block;
 	height: 200px;
+	margin: 0 auto;
 }
 .t-img{
 	position: relative;
@@ -617,7 +619,7 @@ b{
 
 
 .news{
-	background: url(../img/news-bg.jpg) no-repeat;
+	background: url(../img/news-bg.jpg)50% 0% no-repeat;
 	height: 690px;
 }
 .head-news {
@@ -755,7 +757,7 @@ b{
 }
 
 .subscribe{
-	background: url(../img/sss.bg.jpg) no-repeat;
+	background: url(../img/sss.bg.jpg)50% 0% no-repeat;
 	height: 375px;
 }
 .subscribe h2{
